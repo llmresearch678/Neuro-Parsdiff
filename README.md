@@ -24,6 +24,9 @@ resulting in stable, scalable, and interpretable connectome generation.
 
 ---
 
+**DCMD Framework**  
+<img width="525" height="392" alt="image" src="https://github.com/user-attachments/assets/c9a666aa-d35b-4556-a6f8-1f78271aa309" />
+---
 ## ✨ **2. Key Contributions**
 
 1. **Permutation-Aware Autoregressive Diffusion**  
@@ -159,11 +162,13 @@ pip install -r requirements.txt
 ```
 
 ### **Key libraries**
+
 - **PyTorch**
 - **NumPy**
 - **OmegaConf**
 - **PyYAML**
 - **Matplotlib**
+
   ---
 
 ## 📂 **Dataset Preparation**
@@ -236,6 +241,12 @@ python scripts/generate.py \
 
 ### 🔹 **Some of our Results**
 
+<img width="594" height="227" alt="image" src="https://github.com/user-attachments/assets/d400e802-6d5a-49ee-9a1d-44c00804cf3b" />
+<img width="611" height="339" alt="image" src="https://github.com/user-attachments/assets/18417dcc-6f59-4d7c-a876-3e00395f2e07" />
+<img width="1008" height="350" alt="image" src="https://github.com/user-attachments/assets/92294a59-0da5-4f80-bb06-199fd3b3a207" />
+<img width="849" height="406" alt="image" src="https://github.com/user-attachments/assets/f26e737c-3a5e-4be0-9c6c-f49727b43bfb" />
+<img width="735" height="547" alt="image" src="https://github.com/user-attachments/assets/06720dc4-3227-411a-92e4-0dbc1ccf2d02" />
+<img width="712" height="532" alt="image" src="https://github.com/user-attachments/assets/f91285c4-bdc0-4e95-aae5-d38db11e284e" />
 
 ## 🔬 **Reproducibility Notes**
 - **Fixed random seeds** across **Python**, **NumPy**, and **PyTorch**
@@ -243,4 +254,5 @@ python scripts/generate.py \
 - **Config-driven experiments** (no hidden hyperparameters)
 - **No dataset-specific logic inside model code**
 - **Explicit permutation-aware modeling** to ensure stable diffusion
+
 
